@@ -1,0 +1,28 @@
+theme = "lynx"
+title = "Lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "chrisConnellyDotDev"
+  image = "logo.png"
+  links = [
+    { home = { href = "https://chrisconnelly.dev", text = "Home" } },
+    { github = { href = "https://github.com/teamallnighter", text = "Github" } },
+    { portal = { href = "https://portal.chrisconnelly.ca", text = "Portal" } },
+    { facebook = { href = "https://facebook.com/chrisconnellydotdev", text = "Facebook" } },
+    { blog = { href = "https://blog.chrisconnelly.dev", text = "Blog" } },
+    { instagram = { href = "https://instagram.com/chrisconnellydotdev", text = "Instagram" } },
+    { dev = { href = "https://dev.to/teamallnighter", text = "DEV" } },
+    { portfolio = { href = "https://portfolio.chrisconnelly.dev", text = "Portfolio" } },
+    { discord = { href = "", text = "Discord" } },
+    
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,9 @@
+.link-portal, .link-blog, .link-home {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgb(248, 6, 6) 0%,
+      rgb(255, 1, 85) 50%,
+      rgb(226, 223, 218) 100%
+    );
+  }
